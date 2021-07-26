@@ -8,16 +8,15 @@ Ex. On Day 1, SKU1 would have 10 quantity in warehouse NCI3, and 5 quantity in K
 I had to keep an Excel file which would store all the active records, and detect when a certain item record was not imported in again.
 
 Files Used:
+
 Amazon FC Quantity Sheet[Base file with all code.  Included as FC Quantity Test.xlsb]
+
 Daily Inventory Reports[The sheets included utilize dummy data for testing.  Included as FCQuantity Report 1 & 2]
+
 Parent Item & SKU Name[Sheet pulled from database.  Used to link Amazon SKU name with database SKU name.  Included as Parent Name Reference Book.]
 
 Userform:
-Originally I had planned to generate a VBA Userform to allow users to activate the code.  However, the form turned out to be cumbersome to use for something as simple as hitting a button.
-Instead, I created a sheet with 3 button controls that the user can click.
+Originally I had planned to generate a VBA Userform to allow users to activate the code.  However, the form turned out to be cumbersome to use for something as simple as hitting a button.  Instead, I created a sheet with 3 button controls that the user can click.
 
 Exported Files:
-2 CSV files will be saved.  
-	One contains all of the base report records with additional data used to link them to our database records.
-	Another uses summarized data that tells us how many of each SKU is in Amazon Warehouses.
-		-This sheet is included as a sample.
+2 CSV files will be saved.  One contains all of the base report records with additional data used to link them to our database records.  Another uses summarized data that tells us how many of each SKU is in Amazon Warehouses.  This sheet is included as a sample.
